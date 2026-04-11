@@ -13,6 +13,14 @@ export default function TabsLayout() {
           elevation: 0,
           shadowOpacity: 0,
         },
+        headerTitle: "Habit 🚀 Tracker ",
+        headerTitleAlign: "center",
+        headerTitleStyle: {
+          fontSize: 22,
+          fontWeight: "bold",
+          color: "#6200ee",
+          fontFamily: "monospace",
+        },
         tabBarActiveTintColor: "#6200ee",
         tabBarInactiveTintColor: "#66666",
       }}

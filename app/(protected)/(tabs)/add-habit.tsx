@@ -61,6 +61,9 @@ export default function AddHabitScreen() {
 
   return (
     <View style={styles.container}>
+      <Text style={styles.title} variant="headlineSmall">
+        Add New Habit
+      </Text>
       <TextInput
         label="Title"
         mode="outlined"
@@ -102,6 +105,10 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
     justifyContent: "center",
+  },
+  title: {
+    fontWeight: "bold",
+    marginBottom: 16,
   },
 
   input: {
